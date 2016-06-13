@@ -2,15 +2,12 @@
 How to use socket.h     reference: http://www.cnblogs.com/-Lei/archive/2012/09/04/2670942.html
 
 server:
-//============================================================================
 
-//============================================================================
-
-#include <iostream>
-#include <string>
-#include "ServerSocket.h"
-#include "SocketException.h"
-using namespace std;
+    #include <iostream>
+    #include <string>
+    #include "ServerSocket.h"
+    #include "SocketException.h"
+    using namespace std;
 
 int main()
 {
@@ -43,15 +40,12 @@ int main()
 }
 
 client:
-//============================================================================
 
-//============================================================================
-
-#include <iostream>
-#include <string>
-#include "ClientSocket.h"
-#include "SocketException.h"
-using namespace std;
+    #include <iostream>
+    #include <string>
+    #include "ClientSocket.h"
+    #include "SocketException.h"
+    using namespace std;
 
 int main()
 {
