@@ -9,9 +9,9 @@ server:
     #include "SocketException.h"
     using namespace std;
 
-int main()
-{
-    cout<<"Running server..."<<endl;
+    int main()
+    {
+     cout<<"Running server..."<<endl;
     try
     {
         ServerSocket server(8080);
@@ -37,9 +37,9 @@ int main()
          cout << "Exception was caught:" << ex.Description() << "\nExiting.\n";
     }
     return 0;
-}
+    }
 
-client:
+    client:
 
     #include <iostream>
     #include <string>
@@ -47,8 +47,8 @@ client:
     #include "SocketException.h"
     using namespace std;
 
-int main()
-{
+    int main()
+    {
     cout<<"Running client...."<<endl;
     try
     {
@@ -63,4 +63,4 @@ int main()
         cout << "Exception was caught:" << ex.Description() << "\n";
     }
     return 0;
-}
+    }
